@@ -10,7 +10,7 @@ def crete_arr_ord_num(n,m):
   arr = []
   temp = []
   for i in range(n):
-    for j in range(m):
+    for j in range(1, m+1):
       temp.append(i*m+j)
     arr.append(temp)
     temp = []
