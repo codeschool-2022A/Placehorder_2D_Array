@@ -1,6 +1,6 @@
-def create_arr_ones(n,m):
+def create_arr_indexing(n,m):
     """
-    Create 2D array NxM of ones
+    Create 2D array Nxm of indexing.
     Args:
         int: n
         int: m
