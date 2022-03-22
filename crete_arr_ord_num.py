@@ -8,6 +8,12 @@ def crete_arr_ord_num(n,m):
     list: 2D list
   """
   arr = []
+  temp = []
   for i in range(n):
-    arr.append([i]*m)
+    for j in range(m):
+      temp.append(i*m+j)
+    arr.append(temp)
+    temp = []
   return arr
+
+print(crete_arr_ord_num(3,4))
