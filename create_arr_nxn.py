@@ -7,3 +7,8 @@ def create_arr_nxn(n,k):
   Returns:
     list: 2D list
   """
+  arr = []
+  for i in range(n):
+    arr.append([k]*n)
+  return arr
+  

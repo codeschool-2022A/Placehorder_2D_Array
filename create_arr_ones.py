@@ -7,3 +7,7 @@ def create_arr_ones(n,m):
   Returns:
     list: 2D list
   """
+  arr = []
+  for i in range(n):
+    arr.append([1]*m)
+  return arr
