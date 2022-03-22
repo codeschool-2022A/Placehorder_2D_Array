@@ -7,3 +7,7 @@ def crete_arr_ord_num(n,m):
   Returns:
     list: 2D list
   """
+  arr = []
+  for i in range(n):
+    arr.append([i]*m)
+  return arr
