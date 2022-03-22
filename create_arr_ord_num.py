@@ -1,6 +1,6 @@
-def create_arr_full_row_num(n,m):
+def create_arr_ord_num(n,m):
   """
-  Create 2D array NxM of ones
+  Create 2D array NxM
   Args:
     int: n
     int: m
